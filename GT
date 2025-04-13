@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bayzid189 Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .download-button {
+      background-color: #00ffcc;
+      color: #000;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .screenshot {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 30px;
+    }
+    input, textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      background-color: #00ffcc;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bayzid189 Game</h1>
+    <p>একটি ওপেন ওয়ার্ল্ড মাল্টিপ্লেয়ার একশন অ্যাডভেঞ্চার গেম</p>
+  </header>
+
+  <section>
+    <h2>ডাউনলোড করুন</h2>
+    <a class="download-button" href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID">Download Game</a>
+
+    <h2>ফিচারসমূহ</h2>
+    <ul>
+      <li>মাল্টিপ্লেয়ার ওপেন ওয়ার্ল্ড</li>
+      <li>৫০০+ ইউনিক স্কিল</li>
+      <li>ভয়েস ও টেক্সট চ্যাট</li>
+      <li>এনিমে-স্টাইল ক্যারেক্টার কাস্টমাইজেশন</li>
+      <li>ডার্ক মোড এবং বাংলা/ইংরেজি ভাষা</li>
+    </ul>
+
+    <h2>স্ক্রিনশট</h2>
+    <img class="screenshot" src="screenshot1.jpg" alt="Screenshot 1"/>
+    <img class="screenshot" src="screenshot2.jpg" alt="Screenshot 2"/>
+
+    <h2>ভিডিও ট্রেইলার</h2>
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+
+    <h2>যোগাযোগ করুন</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="আপনার নাম" required />
+      <input type="email" name="email" placeholder="আপনার ইমেইল" required />
+      <textarea name="message" placeholder="আপনার বার্তা" rows="5" required></textarea>
+      <input type="submit" value="পাঠান" />
+    </form>
+  </section>
+</body>
+</html>
